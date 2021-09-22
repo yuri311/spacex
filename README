@@ -1,7 +1,9 @@
 ###
 *** Architecture ***
-A single activity contains 2 different fragment, I used a view model pattern to share data across them.
+A single activity contains 2 different fragments, I used a view model pattern to share data across them.
 3 LiveData objects are used to load the UI on API call completion. Didn't spend time trying to merge
 the results of the 2 API calls (rocket details and launch details) and have a single LiveData source,
-although it would be a cleaner solution
-I Used built-in Kotlin list methods to order. Didn't manage to finish grouping
+although it would be a cleaner solution.
+I Used built-in Kotlin list methods to order.
+Didn't manage to finish grouping by year.
+Didn't implement the navigation to Wikipedia page
